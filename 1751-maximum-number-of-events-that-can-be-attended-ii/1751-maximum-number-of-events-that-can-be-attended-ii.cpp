@@ -19,11 +19,7 @@ public:
 				else dp[i][j] = max(dp[i][j], events[j][2]);
 			}
 		}
-		int ans = 0;
-		for (int j = 0; j < n; ++j) {
-			ans = max(ans, dp[k][j]);
-		}
-		return ans;
+		return dp[k][n-1];
 	}
 
 	int get(vector<vector<int>> &events, int startTime) {
