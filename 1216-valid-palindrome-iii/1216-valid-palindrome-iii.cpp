@@ -14,11 +14,11 @@ public:
         if (l > r) return 0;
         if (l == r) return 1;
         if (dp[l][r] != -1) return dp[l][r];
-        int k1 = longestPalindromicSubseq(s, l + 1, r);
-        int k2 = longestPalindromicSubseq(s, l, r - 1);
         if (s[l] == s[r]) {
-            return dp[l][r] = max({k1, k2, 2 + longestPalindromicSubseq(s, l + 1, r - 1)});
+            return dp[l][r] = 2 + longestPalindromicSubseq(s, l + 1, r - 1);
         } else {
+            int k1 = longestPalindromicSubseq(s, l + 1, r);
+            int k2 = longestPalindromicSubseq(s, l, r - 1);
             return dp[l][r] = max(k1, k2);
         }
     }
