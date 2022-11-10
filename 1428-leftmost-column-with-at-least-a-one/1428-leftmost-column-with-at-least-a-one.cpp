@@ -10,22 +10,17 @@
 
 class Solution {
 public:
-    int leftMostColumnWithOne(BinaryMatrix &binaryMatrix) {
-        auto d = binaryMatrix.dimensions();
-        int m = d[0], n = d[1];
-        int lo = -1, hi = n;
-        while (hi > lo + 1) {
-            int mid = (lo + hi) >> 1;
-            bool ok = false;
-            for (int i = 0; i < m; ++i) {
-                if (binaryMatrix.get(i, mid) == 1) {
-                    ok = true;
-                    break;
-                }
+    int leftMostColumnWithOne(BinaryMatrix &m) {
+        auto dim = m.dimensions();
+        int row = dim[0], col = dim[1];
+        int currRow = 0, currCol = col - 1;
+        while (currRow < row and currCol >= 0) {
+            if (m.get(currRow, currCol) == 0) {
+                ++currRow;
+            }else {
+                --currCol;
             }
-            if (ok) hi = mid;
-            else lo = mid;
         }
-        return (hi == n) ? -1 : hi;
+        return (currCol == col-1) ? -1 : currCol+1;
     }
 };
