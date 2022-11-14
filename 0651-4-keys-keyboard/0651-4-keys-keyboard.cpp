@@ -1,13 +1,20 @@
 class Solution {
 public:
+    int dp[51];
+    
     int maxA(int n) {
-        vector<int> dp(n + 1);
-        iota(dp.begin(), dp.end(), 0);
-        for (int i = 1; i <= n; ++i) {
-            for (int j = 0; j <= i - 2; ++j) {
-                dp[i] = max(dp[i], dp[j] * (i - (j + 2) + 1));
-            }
+        memset(dp, -1, sizeof dp);
+        return solve(n);
+    }
+    
+    int solve(int n) {
+        if (n <= 2) return n;
+        if (dp[n] != -1) return dp[n];
+        int maxLength = n;
+        for (int i = 0; i < n; ++i) {
+            int ans = solve(i) * (n - i - 1);
+            maxLength = max(maxLength, ans);
         }
-        return dp[n];
+        return dp[n] = max(maxLength, solve(n - 1) + 1);
     }
 };
