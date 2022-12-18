@@ -14,7 +14,6 @@ public:
             d = 0;
             while (b >= 1) {
                 if (mp.find(b) != mp.end()) {
-                    // debug(b, mp[b], d);
                     ans.push_back(d + mp[b]+1);
                     break;
                 } else {
