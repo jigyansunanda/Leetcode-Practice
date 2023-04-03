@@ -14,7 +14,7 @@ public:
     }
 
     bool lock(int num, int user) {
-        if (valid_lock(num)) return false;
+        if (is_still_locked(num)) return false;
         locked_by[num] = user;
         lock_time[num] = ++query_time;
         update_locked_child_count(num, 1);
@@ -22,7 +22,7 @@ public:
     }
 
     bool unlock(int num, int user) {
-        if (valid_lock(num)) {
+        if (is_still_locked(num)) {
             if (locked_by[num] != user) return false;
             locked_by[num] = -1;
             lock_time[num] = -2;
@@ -33,7 +33,7 @@ public:
     }
 
     bool upgrade(int num, int user) {
-        if (valid_lock(num)) return false;
+        if (is_still_locked(num)) return false;
         if (has_locked_ancestor(num)) return false;
         if (locked_child_count[num] == 0) return false;
         locked_by[num] = user;
@@ -53,7 +53,7 @@ public:
         return (max_lock_time != -2);
     }
 
-    bool valid_lock(int num) {
+    bool is_still_locked(int num) {
         if (locked_by[num] == -1) return false;
         int ancestor = parents[num];
         while (ancestor != -1) {
