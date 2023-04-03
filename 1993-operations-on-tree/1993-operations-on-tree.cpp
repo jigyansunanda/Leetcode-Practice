@@ -1,94 +1,74 @@
 class LockingTree {
 public:
-    LockingTree(vector<int>& _parent) {
-        parent = _parent;
-        timestamp = 0;
-        lockedBy = std::vector<int>(parent.size(), -1);
-        upgradeTime = std::vector<int>(parent.size(), -1);
-        lockTime = std::vector<int>(parent.size(), -2);
-        lockedDescendents = std::vector<int>(parent.size(), 0);
+    int n;
+    vector<vector<int>> tree;
+    vector<int> locked_by, locked_child_count, locked_parent_count, parents;
+
+    LockingTree(vector<int>& parent) {
+        n = ((int) parent.size());
+        tree.resize(n);
+        for (int i = 1; i <= n - 1; ++i) tree[parent[i]].push_back(i);
+        locked_by.resize(n, -1);
+        locked_child_count.resize(n, 0);
+        locked_parent_count.resize(n, 0);
+        parents = parent;
     }
-    
+
     bool lock(int num, int user) {
-        if(!validLock(num)) {
-            lockedBy[num] = user;
-            lockTime[num] = timestamp++;
-            propagateUp(num, 1);
-            return true;
-        }
-        
-        return false;
-    }
-    
-    bool unlock(int num, int user) {
-        if (validLock(num)) {
-            if(lockedBy[num] == user) {
-                lockedBy[num] = -1;
-                lockTime[num] = -2;
-                propagateUp(num, -1);
-                return true;
-            }
-            return false;
-        }
-        return false;
-    }
-    
-    bool upgrade(int num, int user) {
-        if (!validLock(num) && !hasLockedAncestor(num) && (lockedDescendents[num] != 0)) {
-            lockedBy[num] = user;
-            lockTime[num] = upgradeTime[num] = timestamp++;
-            propagateUp(num, 1-lockedDescendents[num]);
-            lockedDescendents[num] = 0;
-            return true;
-        }
-        
-        return false;
-    }
-        
-    bool validLock(int num) {
-        if(lockedBy[num] == -1) return false;
-        
-        int p{parent[num]};
-        while (p != -1) {
-            if (upgradeTime[p] > lockTime[num]) {
-                return false;
-            }
-            p = parent[p];
-        }
-        
+        if (locked_by[num] != -1) return false;
+        locked_by[num] = user;
+        update_all_child(num, 1);
+        update_all_parent(num, 1);
         return true;
     }
-        
-    bool hasLockedAncestor(int num) {
-        int p{parent[num]};
-        
-        int maxLockTime{-2};
-        
-        while (p != -1) {
-            maxLockTime = std::max(maxLockTime, lockTime[p]);
-            if (upgradeTime[p] > maxLockTime) {
-                maxLockTime = -2;
-            }
-            p = parent[p];
-        }
 
-        return maxLockTime != -2;
+    bool unlock(int num, int user) {
+        if (locked_by[num] != user) return false;
+        locked_by[num] = -1;
+        update_all_child(num, -1);
+        update_all_parent(num, -1);
+        return true;
     }
-        
-    void propagateUp(int num, int v) {
-        
-        int p = parent[num];
-        
-        while(p != -1) {
-            lockedDescendents[p] += v;
-            p = parent[p];
+
+    bool upgrade(int num, int user) {
+        if (locked_by[num] != -1) return false;
+        if (locked_child_count[num] == 0) return false;
+        if (locked_parent_count[num]) return false;
+        locked_by[num] = user;
+        update_all_child(num, -2);
+        update_all_parent(num, 1);
+        return true;
+    }
+
+    // update all parent child lock count when a child is locked/unlocked
+    void update_all_parent(int num, int lock) {
+        int parentId = num;
+        while (parentId != -1) {
+            locked_child_count[parentId] += lock;
+            parentId = parents[parentId];
         }
     }
-    
-    std::vector<int> parent;
-    std::vector<int> lockedBy;
-    std::vector<int> upgradeTime;
-    std::vector<int> lockTime;
-    std::vector<int> lockedDescendents;
-    int timestamp;
+
+    // update all the children lock count if parent is locked or upgraded
+    void update_all_child(int num, int lock) {
+        queue<int> q;
+        q.push(num);
+        while (!q.empty()) {
+            int sz = q.size();
+            for (int i = 0; i < sz; i++) {
+                int cur = q.front();
+                q.pop();
+                for (auto& c : tree[cur]) {
+                    // clear all child locks and keep
+                    // locked_parent_count count
+                    if (lock == -2) {
+                        locked_parent_count[c] = 1;
+                        locked_by[c] = -1;
+                    } else locked_parent_count[c] += lock;
+
+                    q.push(c);
+                }
+            }
+        }
+    }
 };
