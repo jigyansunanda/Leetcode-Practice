@@ -1,74 +1,73 @@
 class LockingTree {
 public:
-    int n;
-    vector<vector<int>> tree;
-    vector<int> locked_by, locked_child_count, locked_parent_count, parents;
+    int query_time;
+    vector<int> parents, locked_by, locked_child_count, lock_time, upgrade_time;
 
     LockingTree(vector<int>& parent) {
-        n = ((int) parent.size());
-        tree.resize(n);
-        for (int i = 1; i <= n - 1; ++i) tree[parent[i]].push_back(i);
+        int n = parent.size();
+        query_time = 0;
+        parents = parent;
         locked_by.resize(n, -1);
         locked_child_count.resize(n, 0);
-        locked_parent_count.resize(n, 0);
-        parents = parent;
+        lock_time.resize(n, -2);
+        upgrade_time.resize(n, -1);
     }
 
     bool lock(int num, int user) {
-        if (locked_by[num] != -1) return false;
+        if (valid_lock(num)) return false;
         locked_by[num] = user;
-        update_all_child(num, 1);
-        update_all_parent(num, 1);
+        lock_time[num] = ++query_time;
+        update_locked_child_count(num, 1);
         return true;
     }
 
     bool unlock(int num, int user) {
-        if (locked_by[num] != user) return false;
-        locked_by[num] = -1;
-        update_all_child(num, -1);
-        update_all_parent(num, -1);
-        return true;
+        if (valid_lock(num)) {
+            if (locked_by[num] != user) return false;
+            locked_by[num] = -1;
+            lock_time[num] = -2;
+            update_locked_child_count(num, -1);
+            return true;
+        }
+        return false;
     }
 
     bool upgrade(int num, int user) {
-        if (locked_by[num] != -1) return false;
+        if (valid_lock(num)) return false;
+        if (has_locked_ancestor(num)) return false;
         if (locked_child_count[num] == 0) return false;
-        if (locked_parent_count[num]) return false;
         locked_by[num] = user;
-        update_all_child(num, -2);
-        update_all_parent(num, 1);
+        lock_time[num] = upgrade_time[num] = ++query_time;
+        update_locked_child_count(num, -locked_child_count[num] + 1);
         return true;
     }
 
-    // update all parent child lock count when a child is locked/unlocked
-    void update_all_parent(int num, int lock) {
-        int parentId = num;
-        while (parentId != -1) {
-            locked_child_count[parentId] += lock;
-            parentId = parents[parentId];
+    bool has_locked_ancestor(int num) {
+        int ancestor = parents[num];
+        int max_lock_time = -2;
+        while (ancestor != -1) {
+            max_lock_time = max(max_lock_time, lock_time[ancestor]);
+            if (upgrade_time[ancestor] > max_lock_time) max_lock_time = -2;
+            ancestor = parents[ancestor];
         }
+        return (max_lock_time != -2);
     }
 
-    // update all the children lock count if parent is locked or upgraded
-    void update_all_child(int num, int lock) {
-        queue<int> q;
-        q.push(num);
-        while (!q.empty()) {
-            int sz = q.size();
-            for (int i = 0; i < sz; i++) {
-                int cur = q.front();
-                q.pop();
-                for (auto& c : tree[cur]) {
-                    // clear all child locks and keep
-                    // locked_parent_count count
-                    if (lock == -2) {
-                        locked_parent_count[c] = 1;
-                        locked_by[c] = -1;
-                    } else locked_parent_count[c] += lock;
+    bool valid_lock(int num) {
+        if (locked_by[num] == -1) return false;
+        int ancestor = parents[num];
+        while (ancestor != -1) {
+            if (upgrade_time[ancestor] > lock_time[num]) return false;
+            ancestor = parents[ancestor];
+        }
+        return true;
+    }
 
-                    q.push(c);
-                }
-            }
+    void update_locked_child_count(int num, int count) {
+        num = parents[num];
+        while (num != -1) {
+            locked_child_count[num] += count;
+            num = parents[num];
         }
     }
 };
