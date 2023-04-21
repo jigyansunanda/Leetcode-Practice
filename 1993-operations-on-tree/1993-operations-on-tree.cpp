@@ -71,3 +71,11 @@ public:
         }
     }
 };
+
+/**
+ * Your LockingTree object will be instantiated and called as such:
+ * LockingTree* obj = new LockingTree(parent);
+ * bool param_1 = obj->lock(num,user);
+ * bool param_2 = obj->unlock(num,user);
+ * bool param_3 = obj->upgrade(num,user);
+ */
