@@ -1,22 +1,27 @@
 class Solution {
 public:
-    vector<vector<int>> res;
-
-    void permute(vector<int> num, int l, int r) {
-        if (l == r) {
-            res.push_back(num);
+void per(vector<int> nums,int i,vector<vector<int>>&ans)
+    {
+        if(i>=nums.size()-1)
+        {
+            ans.push_back(nums);
             return;
         }
-        for (int k = l; k <= r; k++) {
-            if (l != k && (num[l] == num[k] or num[k] == num[k - 1])) continue;
-            swap(num[l], num[k]);
-            permute(num, l + 1, r);
-            // swap(num[l], num[k]);
+        for(int j=i;j<nums.size();j++)
+        {
+            if(i==j || (nums[j]!=nums[j-1] && nums[i]!=nums[j]))
+            {
+            swap(nums[i],nums[j]);
+            per(nums,i+1,ans);
+            // swap(nums[i],nums[j]);
+            }
         }
     }
-    vector<vector<int> > permuteUnique(vector<int> &num) {
-        sort(num.begin(), num.end());
-        permute(num, 0, num.size() - 1);
-        return res;
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
+       vector<vector<int>> ans;
+       sort(nums.begin(),nums.end());
+       per(nums,0,ans);
+       return ans; 
     }
+    
 };
