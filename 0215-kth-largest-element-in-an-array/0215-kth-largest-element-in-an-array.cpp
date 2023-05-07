@@ -1,37 +1,34 @@
 class Solution {
 private:
     int get_random_number(int l, int r) {
-        int _range = (r - l + 1);
-        return l + (rand() % _range);
+        int len = r - l + 1;
+        return l + (rand() % len);
     }
-    
-public:
-    int findKthLargest(vector<int>& nums, int k) {
-        int n = nums.size();
-        return kth_smallest_element(nums, 0, n - 1, n - k + 1);
-    }
-    
-    int kth_smallest_element(vector<int>& nums, int l, int r, int k) {
-        while (l <= r) {
-            int p = partition(nums, l, r);
-            if (p == k - 1) return nums[p];
-            if (p < (k-1)) l = p + 1;
-            else r = p - 1;
-        }
-        return -1;
-    }
-    
+
     int partition(vector<int>& nums, int l, int r) {
         int pivot_index = get_random_number(l, r);
-        int pivot = nums[pivot_index];
-        swap(nums[r], nums[pivot_index]);
+        swap(nums[pivot_index], nums[r]);
         int index = l;
         for (int i = l; i <= r; ++i) {
-            if (nums[i] <= pivot) {
+            if (nums[i] <= nums[r]) {
                 swap(nums[i], nums[index]);
                 ++index;
             }
         }
         return index - 1;
+    }
+
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        int n = nums.size();
+        // k-th largest = in sorted array, index = n-k
+        int l = 0, r = n - 1;
+        while (l <= r) {
+            int final_pivot_index = partition(nums, l, r);
+            if (final_pivot_index == n - k) return nums[final_pivot_index];
+            if (final_pivot_index < (n - k)) l = final_pivot_index + 1;
+            else r = final_pivot_index - 1;
+        }
+        return -1;
     }
 };
