@@ -1,46 +1,33 @@
 class Solution {
-private:
-    vector<int> get(string& s, int index) {
-        vector<int> ans = {0, 0};
-        int l = index, r = index;
-        while (l >= 0 and r < ((int) s.size())) {
-            if (s[l] == s[r]) {
-                --l;
-                ++r;
-            } else break;
-        }
-        ++l;
-        --r;
-        if (r - l + 1 > ans[0]) {
-            ans[0] = r - l + 1;
-            ans[1] = l;
-        }
-        l = index, r = index + 1;
-        while (l >= 0 and r < ((int) s.size())) {
-            if (s[l] == s[r]) {
-                --l;
-                ++r;
-            } else break;
-        }
-        ++l;
-        --r;
-        if (r - l + 1 > ans[0]) {
-            ans[0] = r - l + 1;
-            ans[1] = l;
-        }
-        return ans;
-    }
-
 public:
-    string longestPalindrome(string s, int maxLength = 0, int startIndex = -1) {
-        int n = s.size();
-        for (int i = 0; i < n; ++i) {
-            auto v = get(s, i);
-            if (v[0] > maxLength) {
-                maxLength = v[0];
-                startIndex = v[1];
+    string longestPalindrome(string s) {
+        int best_len = 0;
+        string best_s = "";
+        int n = s.length();
+        for(int mid = 0; mid < n; mid++) {
+            for(int x = 0; mid - x >= 0 && mid + x < n; x++) {
+                if(s[mid-x] != s[mid+x]) {
+                    break;
+                }
+                int len = 2 * x + 1;
+                if(len > best_len) {
+                    best_len = len;
+                    best_s = s.substr(mid - x, len);
+                }
             }
         }
-        return s.substr(startIndex, maxLength);
+        for(int mid = 0; mid < n - 1; mid++) {
+            for(int x = 1; mid - x + 1 >= 0 && mid + x < n; x++) {
+                if(s[mid-x+1] != s[mid+x]) {
+                    break;
+                }
+                int len = 2 * x;
+                if(len > best_len) {
+                    best_len = len;
+                    best_s = s.substr(mid - x + 1, len);
+                }
+            }
+        }
+        return best_s;
     }
 };
