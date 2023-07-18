@@ -1,34 +1,32 @@
 class Solution {
 private:
-    int get_random_number(int l, int r) {
-        int len = r - l + 1;
-        return l + (rand() % len);
-    }
-
-    int partition(vector<int>& nums, int l, int r) {
-        int pivot_index = get_random_number(l, r);
-        swap(nums[pivot_index], nums[r]);
-        int index = l;
-        for (int i = l; i <= r; ++i) {
-            if (nums[i] <= nums[r]) {
-                swap(nums[i], nums[index]);
-                ++index;
-            }
-        }
-        return index - 1;
+    int getRandomNumber(int L, int R) {
+        int len = R - L + 1;
+        return L + (rand() % len);
     }
 
 public:
-    int findKthLargest(vector<int>& nums, int k) {
-        int n = nums.size();
-        // k-th largest = in sorted array, index = n-k
-        int l = 0, r = n - 1;
-        while (l <= r) {
-            int final_pivot_index = partition(nums, l, r);
-            if (final_pivot_index == n - k) return nums[final_pivot_index];
-            if (final_pivot_index < (n - k)) l = final_pivot_index + 1;
-            else r = final_pivot_index - 1;
+    int findKthLargest(vector<int>& A, int K) {
+        int N = A.size();
+        int L = 0, R = N - 1;
+        while (L <= R) {
+            int pivotIndex = partition(A, L, R);
+            if (pivotIndex == N - K) return A[pivotIndex];
+            else if (pivotIndex < N - K) L = pivotIndex + 1;
+            else R = pivotIndex - 1;
         }
         return -1;
+    }
+
+    int partition(vector<int>& A, int L, int R) {
+        int randomIndex = getRandomNumber(L, R);
+        swap(A[randomIndex], A[R]);
+        int index = L;
+        for (int i = L; i <= R; ++i) {
+            if (A[i] <= A[R]) {
+                swap(A[index++], A[i]);
+            }
+        }
+        return index - 1;
     }
 };
