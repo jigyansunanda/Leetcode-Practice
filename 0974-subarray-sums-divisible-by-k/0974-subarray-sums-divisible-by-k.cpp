@@ -1,15 +1,15 @@
 class Solution {
 public:
-    int subarraysDivByK(vector<int>& nums, int k, int ans = 0) {
+    int subarraysDivByK(vector<int>& nums, int k) {
         int n = nums.size();
         unordered_map<int, int> mp;
-        int remainder = 0;
-        for (auto num : nums) {
-            remainder = (remainder + num) % k;
-            if (remainder < 0) remainder += k;
-            if (remainder == 0) ++ans;
-            if (mp.find(remainder) != mp.end()) ans += mp[remainder];
-            mp[remainder]++;
+        int rem = 0, ans = 0;
+        for (int i = 0; i < n; ++i) {
+            rem = (rem + (nums[i] % k)) % k;
+            if (rem < 0) rem += k;
+            if (rem == 0) ++ans;
+            ans += mp[rem];
+            mp[rem]++;
         }
         return ans;
     }
