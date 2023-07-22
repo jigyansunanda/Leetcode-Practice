@@ -1,16 +1,15 @@
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-        int gasSpared = 0, gasRequired = 0;
-        int startIndex = 0;
-        for (int i = 0; i < gas.size(); ++i) {
-            gasSpared += (gas[i] - cost[i]);
-            if (gasSpared < 0) {
+        int currentPetrol = 0, prevPetrol = 0, startIndex = 0;
+        for (int i = 0; i < ((int) gas.size()); ++i) {
+            currentPetrol += (gas[i] - cost[i]);
+            if (currentPetrol < 0) {
                 startIndex = i + 1;
-                gasRequired += abs(gasSpared);
-                gasSpared = 0;
+                prevPetrol += currentPetrol;
+                currentPetrol = 0;
             }
         }
-        return (gasSpared - gasRequired >= 0) ? startIndex : -1;
+        return (currentPetrol + prevPetrol >= 0) ? startIndex : -1;
     }
 };
