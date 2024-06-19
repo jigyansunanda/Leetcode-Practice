@@ -9,6 +9,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0057-insert-interval](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0057-insert-interval) |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 # Binary Search
@@ -20,26 +21,35 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 # String
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
 # Dynamic Programming
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
 # Trie
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 # Memoization
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 # Union Find
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
+# Backtracking
+|  |
+| ------- |
+| [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
