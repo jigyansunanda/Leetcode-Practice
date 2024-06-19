@@ -6,6 +6,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -16,6 +17,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 # String
 |  |
@@ -36,3 +38,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
+# Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
