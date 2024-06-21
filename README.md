@@ -49,6 +49,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0022-generate-parentheses](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -99,6 +100,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Depth-First Search
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 # Graph
@@ -129,3 +131,11 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
+# Tree
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
+# Binary Tree
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
