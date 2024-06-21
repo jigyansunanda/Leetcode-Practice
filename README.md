@@ -6,6 +6,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [0057-insert-interval](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0057-insert-interval) |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
@@ -21,6 +22,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
@@ -55,6 +57,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 # Linked List
 |  |
@@ -69,6 +72,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Depth-First Search
 |  |
