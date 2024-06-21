@@ -27,11 +27,13 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
 # String
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
 # Dynamic Programming
@@ -87,3 +89,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
+# Sliding Window
+|  |
+| ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
