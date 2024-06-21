@@ -36,6 +36,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0022-generate-parentheses) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -44,6 +45,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
@@ -70,6 +72,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 # Linked List
