@@ -7,6 +7,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
+| [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 | [0057-insert-interval](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0057-insert-interval) |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
@@ -41,6 +42,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -101,3 +103,15 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0238-product-of-array-except-self) |
+# Two Pointers
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+# Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+# Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
