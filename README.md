@@ -14,6 +14,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
+| [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Binary Search
 |  |
@@ -31,6 +32,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
+| [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
 # Dynamic Programming
 |  |
@@ -39,12 +41,14 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
+| [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
 # Trie
 |  |
 | ------- |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
+| [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 # Memoization
 |  |
 | ------- |
@@ -77,6 +81,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Depth-First Search
 |  |
 | ------- |
+| [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 # Graph
 |  |
