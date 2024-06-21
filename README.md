@@ -15,6 +15,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
+| [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Binary Search
 |  |
@@ -73,12 +74,14 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
+| [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Matrix
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
+| [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Depth-First Search
 |  |
