@@ -64,8 +64,17 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
+| [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Matrix
 |  |
 | ------- |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+# Depth-First Search
+|  |
+| ------- |
+| [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
+# Graph
+|  |
+| ------- |
+| [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
