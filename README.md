@@ -19,6 +19,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
 | [0403-frog-jump](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0403-frog-jump) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
+| [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -27,6 +28,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
+| [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
 # Hash Table
 |  |
 | ------- |
@@ -168,3 +170,15 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0866-rectangle-overlap](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0866-rectangle-overlap) |
+# Design
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
+# Segment Tree
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
+# Ordered Set
+|  |
+| ------- |
+| [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
