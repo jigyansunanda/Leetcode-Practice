@@ -160,3 +160,11 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
+# Math
+|  |
+| ------- |
+| [0866-rectangle-overlap](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0866-rectangle-overlap) |
+# Geometry
+|  |
+| ------- |
+| [0866-rectangle-overlap](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0866-rectangle-overlap) |
