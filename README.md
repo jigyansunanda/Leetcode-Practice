@@ -8,6 +8,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0045-jump-game-ii) |
 | [0057-insert-interval](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0057-insert-interval) |
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
@@ -58,6 +59,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0022-generate-parentheses](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0045-jump-game-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
@@ -190,3 +192,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
+# Greedy
+|  |
+| ------- |
+| [0045-jump-game-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0045-jump-game-ii) |
