@@ -19,6 +19,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
 | [0403-frog-jump](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0403-frog-jump) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
+| [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Binary Search
@@ -132,6 +133,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
+| [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
 # Monotonic Stack
 |  |
 | ------- |
@@ -154,3 +156,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0113-path-sum-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0437-path-sum-iii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0437-path-sum-iii) |
+# Simulation
+|  |
+| ------- |
+| [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
