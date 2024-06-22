@@ -21,6 +21,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
+| [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 # Binary Search
@@ -46,6 +47,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [0884-k-similar-strings](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0884-k-similar-strings) |
+| [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
 # Dynamic Programming
 |  |
@@ -144,6 +146,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
+| [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
 # Tree
 |  |
 | ------- |
