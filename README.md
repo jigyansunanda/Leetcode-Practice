@@ -87,6 +87,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Breadth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0112-path-sum) |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
 | [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
 | [0884-k-similar-strings](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0884-k-similar-strings) |
@@ -102,6 +103,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Depth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
@@ -138,8 +140,10 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Tree
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 # Binary Tree
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
