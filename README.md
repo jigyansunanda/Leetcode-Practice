@@ -40,6 +40,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0128-longest-consecutive-sequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
+| [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1611-making-file-names-unique](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1611-making-file-names-unique) |
 # String
@@ -96,6 +97,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0083-remove-duplicates-from-sorted-list) |
+| [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -183,6 +185,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
 | [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
 # Segment Tree
 |  |
@@ -196,3 +199,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0045-jump-game-ii) |
+# Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
