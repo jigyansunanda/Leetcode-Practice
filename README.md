@@ -79,6 +79,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0022-generate-parentheses](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0037-sudoku-solver) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
+| [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
 # Linked List
 |  |
 | ------- |
@@ -87,6 +88,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0322-coin-change) |
+| [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
 | [0884-k-similar-strings](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0884-k-similar-strings) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
@@ -102,10 +104,12 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
+| [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 # Graph
 |  |
 | ------- |
+| [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 # Sliding Window
 |  |
