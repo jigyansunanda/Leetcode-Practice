@@ -31,6 +31,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
 | [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
+| [0755-reach-a-number](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0755-reach-a-number) |
 # Hash Table
 |  |
 | ------- |
@@ -171,6 +172,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 # Math
 |  |
 | ------- |
+| [0755-reach-a-number](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0755-reach-a-number) |
 | [0866-rectangle-overlap](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0866-rectangle-overlap) |
 # Geometry
 |  |
