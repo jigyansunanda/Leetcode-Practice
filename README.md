@@ -24,6 +24,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1611-making-file-names-unique](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1611-making-file-names-unique) |
 # Binary Search
 |  |
 | ------- |
@@ -38,6 +39,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1611-making-file-names-unique](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1611-making-file-names-unique) |
 # String
 |  |
 | ------- |
@@ -49,6 +51,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0884-k-similar-strings](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0884-k-similar-strings) |
 | [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
 | [1250-longest-common-subsequence](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1250-longest-common-subsequence) |
+| [1611-making-file-names-unique](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1611-making-file-names-unique) |
 # Dynamic Programming
 |  |
 | ------- |
