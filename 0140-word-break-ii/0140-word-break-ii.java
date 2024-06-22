@@ -1,31 +1,34 @@
 class Solution {
-    private HashSet<String> dictionary;
+    private HashSet<String> set;
 
     public List<String> wordBreak(String s, List<String> wordDict) {
-        this.dictionary = new HashSet<>(wordDict);
-        return generateValidWords(s, 0);
+        this.set = new HashSet<>(wordDict);
+        List<String> words = generateValidWords(s, 0);
+        return words;
     }
 
-    private List<String> generateValidWords(String s, int startIndex) {
-        List<String> result = new ArrayList<>();
-        if (startIndex == s.length()) {
-            return result;
+    private List<String> generateValidWords(String s, int index) {
+        if (index == s.length()) {
+            return Collections.emptyList();
         } else {
-            for (int endIndex = startIndex + 1; endIndex <= s.length(); ++endIndex) {
-                String prefix = s.substring(startIndex, endIndex);
-                if (dictionary.contains(prefix)) {
-                    String remainingString = s.substring(endIndex);
-                    List<String> suffixes = generateValidWords(remainingString, 0);
+            List<String> words = new ArrayList<>();
+            for (int nextIndex = index + 1; nextIndex <= s.length(); ++nextIndex) {
+                String prefix = s.substring(index, nextIndex);
+                if (set.contains(prefix)) {
+                    String suffixString = s.substring(nextIndex);
+                    List<String> suffixes = generateValidWords(suffixString, 0);
                     if (suffixes.isEmpty()) {
-                        if (remainingString.length() == 0) result.add(prefix);
+                        if (suffixString.isEmpty()) {
+                            words.add(prefix);
+                        }
                     } else {
                         for (String suffix : suffixes) {
-                            result.add(prefix + " " + suffix);
+                            words.add(prefix + " " + suffix);
                         }
                     }
                 }
             }
-            return result;
+            return words;
         }
     }
 }
