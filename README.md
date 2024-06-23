@@ -41,6 +41,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0139-word-break](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1611-making-file-names-unique](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1611-making-file-names-unique) |
@@ -99,6 +100,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
 # Breadth-First Search
 |  |
@@ -144,6 +146,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0042-trapping-rain-water](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0142-linked-list-cycle-ii) |
 # Stack
 |  |
 | ------- |
