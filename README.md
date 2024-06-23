@@ -133,6 +133,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0437-path-sum-iii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0437-path-sum-iii) |
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
+| [0543-diameter-of-binary-tree](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0543-diameter-of-binary-tree) |
 | [0813-all-paths-from-source-to-target](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0813-all-paths-from-source-to-target) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1120-flower-planting-with-no-adjacent) |
 # Graph
@@ -176,6 +177,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0113-path-sum-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0437-path-sum-iii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0437-path-sum-iii) |
+| [0543-diameter-of-binary-tree](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0543-diameter-of-binary-tree) |
 # Binary Tree
 |  |
 | ------- |
@@ -183,6 +185,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0113-path-sum-ii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0113-path-sum-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0437-path-sum-iii](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0437-path-sum-iii) |
+| [0543-diameter-of-binary-tree](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0543-diameter-of-binary-tree) |
 # Simulation
 |  |
 | ------- |
