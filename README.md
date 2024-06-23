@@ -22,6 +22,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0472-concatenated-words](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0472-concatenated-words) |
 | [0729-my-calendar-i](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0729-my-calendar-i) |
 | [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
+| [0879-maximize-distance-to-closest-person](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0879-maximize-distance-to-closest-person) |
 | [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
