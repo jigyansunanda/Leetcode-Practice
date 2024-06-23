@@ -24,6 +24,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | [0735-asteroid-collision](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0735-asteroid-collision) |
 | [0879-maximize-distance-to-closest-person](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0879-maximize-distance-to-closest-person) |
 | [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1036-rotting-oranges) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1611-making-file-names-unique](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1611-making-file-names-unique) |
@@ -167,6 +168,7 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0354-russian-doll-envelopes](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0354-russian-doll-envelopes) |
 | [0974-reorder-data-in-log-files](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0974-reorder-data-in-log-files) |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
 # Tree
 |  |
 | ------- |
@@ -190,10 +192,12 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 | ------- |
 | [0755-reach-a-number](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0755-reach-a-number) |
 | [0866-rectangle-overlap](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0866-rectangle-overlap) |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
 # Geometry
 |  |
 | ------- |
 | [0866-rectangle-overlap](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0866-rectangle-overlap) |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
 # Design
 |  |
 | ------- |
@@ -215,3 +219,15 @@ My LeetCode Solutions along with Time Taken (% Percentile) Space Taken (% Percen
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/0146-lru-cache) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
+# Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/jigyansunanda/Leetcode-Practice/tree/master/1014-k-closest-points-to-origin) |
